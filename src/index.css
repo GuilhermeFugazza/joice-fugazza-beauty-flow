@@ -2,41 +2,64 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Salão Joice Fugazza - Design System
+Paleta de cores baseada na identidade visual da marca
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Cores principais da marca */
+    --salon-cream: 16 21% 91%; /* #e8dfdc */
+    --salon-rose-light: 352 22% 81%; /* #d9bcbd */
+    --salon-rose: 349 26% 63%; /* #b68289 */
+    --salon-wine: 349 35% 46%; /* #9b4c5c */
+    --salon-burgundy: 349 30% 26%; /* #592531 */
+    --salon-dark: 240 2% 16%; /* #282829 */
+
+    /* Sistema de cores adaptado */
+    --background: 16 21% 96%; /* Mais claro que salon-cream */
+    --foreground: 240 2% 16%; /* salon-dark */
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 240 2% 16%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 240 2% 16%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 349 35% 46%; /* salon-wine */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 352 22% 81%; /* salon-rose-light */
+    --secondary-foreground: 349 30% 26%; /* salon-burgundy */
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 16 21% 91%; /* salon-cream */
+    --muted-foreground: 349 30% 26%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 349 26% 63%; /* salon-rose */
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 16 21% 88%;
+    --input: 16 21% 88%;
+    --ring: 349 35% 46%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
+
+    /* Gradientes personalizados */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--salon-rose)), hsl(var(--salon-wine)));
+    --gradient-hero: linear-gradient(180deg, hsl(var(--background)), hsl(var(--salon-cream)));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100% / 0.8), hsl(var(--salon-cream) / 0.3));
+
+    /* Sombras elegantes */
+    --shadow-soft: 0 4px 20px hsl(var(--salon-wine) / 0.08);
+    --shadow-card: 0 8px 30px hsl(var(--salon-wine) / 0.12);
+    --shadow-hero: 0 20px 60px hsl(var(--salon-wine) / 0.15);
+
+    /* Animações */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
