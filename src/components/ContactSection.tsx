@@ -53,7 +53,7 @@ const ContactSection = () => {
             <div className="animate-fade-in">
               <div className="bg-gradient-card backdrop-blur-sm rounded-3xl p-8 shadow-hero border border-salon-rose-light/30 text-center">
                 <div className="mb-6">
-                  <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-soft animate-bounce-subtle">
+                  <div className="w-20 h-20 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4 shadow-soft">
                     <MessageCircle className="h-10 w-10 text-white" />
                   </div>
                   <h3 className="text-3xl font-display font-bold text-foreground mb-4">
@@ -68,7 +68,7 @@ const ContactSection = () => {
                 <Button
                   onClick={handleWhatsApp}
                   size="lg"
-                  className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft text-xl px-12 py-6 animate-bounce-subtle"
+                  className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft text-xl px-12 py-6"
                 >
                   <MessageCircle className="mr-3 h-6 w-6" />
                   Agendar pelo WhatsApp

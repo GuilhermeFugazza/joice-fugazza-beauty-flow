@@ -133,7 +133,7 @@ const ProfessionalsSection = () => {
             <Button
               onClick={() => handleWhatsApp("a equipe")}
               size="lg"
-              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft animate-bounce-subtle"
+              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft"
             >
               <MessageCircle className="mr-3 h-5 w-5" />
               Quero agendar agora

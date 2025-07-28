@@ -105,7 +105,7 @@ const HistorySection = () => {
                   <div className="text-2xl">💄</div>
                 </div>
 
-                <div className="absolute top-1/2 -right-4 bg-salon-wine rounded-full p-3 shadow-card animate-bounce-subtle">
+                <div className="absolute top-1/2 -right-4 bg-salon-wine rounded-full p-3 shadow-card">
                   <Heart className="h-6 w-6 text-white" />
                 </div>
               </div>

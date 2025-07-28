@@ -67,7 +67,7 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             <Button
               onClick={handleWhatsApp}
-              className="bg-gradient-primary hover:scale-105 transition-transform duration-200 shadow-soft animate-bounce-subtle"
+              className="bg-gradient-primary hover:scale-105 transition-transform duration-200 shadow-soft"
             >
               <MessageCircle className="mr-2 h-4 w-4" />
               <span className="hidden sm:inline">Agende pelo WhatsApp</span>

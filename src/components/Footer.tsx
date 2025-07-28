@@ -120,7 +120,7 @@ const Footer = () => {
         <div className="fixed bottom-6 right-6 md:hidden z-40">
           <button
             onClick={handleWhatsApp}
-            className="bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 animate-bounce-subtle"
+            className="bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
           >
             <MessageCircle className="h-6 w-6" />
           </button>

@@ -217,7 +217,7 @@ const ServicesSection = () => {
             <Button
               onClick={() => handleWhatsApp("informações sobre outros serviços")}
               size="lg"
-              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft animate-bounce-subtle"
+              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-soft"
             >
               <MessageCircle className="mr-3 h-5 w-5" />
               Falar com nossa equipe

@@ -42,7 +42,7 @@ const HeroSection = () => {
             <Button
               onClick={handleWhatsApp}
               size="lg"
-              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-hero text-lg px-8 py-6 animate-bounce-subtle"
+              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-hero text-lg px-8 py-6"
             >
               <MessageCircle className="mr-3 h-5 w-5" />
               Fale agora no WhatsApp
