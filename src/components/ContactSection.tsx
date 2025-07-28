@@ -4,7 +4,7 @@ import { MessageCircle, MapPin, Clock, Phone, Instagram } from 'lucide-react';
 
 const ContactSection = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5547999999999?text=Olá! Gostaria de agendar um horário no Salão Joice Fugazza.', '_blank');
+    window.open('https://wa.me/5547999653620?text=Olá! Gostaria de agendar um horário no Salão Joice Fugazza.', '_blank');
   };
 
   const contactInfo = [
@@ -60,7 +60,7 @@ const ContactSection = () => {
                     Quer agendar agora mesmo?
                   </h3>
                   <p className="text-muted-foreground mb-8 text-lg">
-                    É super fácil! Clique no botão abaixo e fale diretamente conosco pelo WhatsApp. 
+                    É super fácil! Clique no botão abaixo e fale diretamente conosco pelo WhatsApp.
                     Vamos encontrar o melhor horário para você!
                   </p>
                 </div>
@@ -91,7 +91,7 @@ const ContactSection = () => {
                 </h3>
 
                 {contactInfo.map((item, index) => (
-                  <Card 
+                  <Card
                     key={item.title}
                     className="bg-gradient-card backdrop-blur-sm border-salon-rose-light/30 shadow-soft hover:shadow-card transition-all duration-300 hover:scale-105"
                   >
@@ -125,7 +125,7 @@ const ContactSection = () => {
               <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground mb-6 text-center">
                 Serviços Mais Procurados
               </h3>
-              
+
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                 {[
                   { name: "Blindagem de Unhas", emoji: "🛡️", professional: "Julia" },
@@ -137,7 +137,7 @@ const ContactSection = () => {
                     key={service.name}
                     onClick={() => {
                       const message = `Olá! Gostaria de agendar ${service.name} com ${service.professional} no Salão Joice Fugazza.`;
-                      window.open(`https://wa.me/5547999999999?text=${encodeURIComponent(message)}`, '_blank');
+                      window.open(`https://wa.me/5547999653620?text=${encodeURIComponent(message)}`, '_blank');
                     }}
                     variant="outline"
                     className="flex flex-col h-auto p-4 border-salon-rose text-salon-burgundy hover:bg-salon-rose hover:text-white transition-all duration-300"
@@ -156,15 +156,15 @@ const ContactSection = () => {
           </div>
 
           {/* Map Placeholder */}
-          <div className="mt-16">
+          <div className="mt-8 max-w-full mx-auto">
             <Card className="bg-gradient-card backdrop-blur-sm border-salon-rose-light/30 shadow-card overflow-hidden">
               <CardContent className="p-0">
-                <div className="aspect-video bg-gradient-to-br from-salon-rose-light to-salon-rose flex items-center justify-center">
-                  <div className="text-center text-white">
-                    <MapPin className="h-16 w-16 mx-auto mb-4" />
-                    <h4 className="text-xl font-semibold mb-2">Nossa Localização</h4>
-                    <p className="text-salon-cream">Balneário Camboriú - SC</p>
-                    <p className="text-sm text-salon-cream mt-2">
+                <div className="aspect-[16/7] bg-gradient-to-br from-salon-rose-light to-salon-rose flex items-center justify-center">
+                  <div className="text-center text-white px-4 py-6">
+                    <MapPin className="h-12 w-12 mx-auto mb-2" />
+                    <h4 className="text-lg font-semibold mb-1">Nossa Localização</h4>
+                    <p className="text-salon-cream text-base">Balneário Camboriú - SC</p>
+                    <p className="text-xs text-salon-cream mt-1">
                       Endereço completo enviado via WhatsApp
                     </p>
                   </div>

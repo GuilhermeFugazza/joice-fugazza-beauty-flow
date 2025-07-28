@@ -5,7 +5,7 @@ import { MessageCircle, Clock, Palette, Scissors, Sparkles } from 'lucide-react'
 const ServicesSection = () => {
   const handleWhatsApp = (service: string) => {
     const message = `Olá! Gostaria de agendar ${service} no Salão Joice Fugazza.`;
-    window.open(`https://wa.me/5547999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5547999653620?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const nailServices = [
@@ -150,11 +150,9 @@ const ServicesSection = () => {
         <div className="mb-16">
           <div className="flex items-center justify-center mb-8">
             <div className="flex items-center gap-3">
-              <Sparkles className="h-6 w-6 text-salon-wine" />
               <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground">
                 Especialista em Unhas - Julia
               </h3>
-              <Sparkles className="h-6 w-6 text-salon-wine" />
             </div>
           </div>
           
@@ -184,11 +182,9 @@ const ServicesSection = () => {
         <div>
           <div className="flex items-center justify-center mb-8">
             <div className="flex items-center gap-3">
-              <Scissors className="h-6 w-6 text-salon-wine" />
               <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground">
-                Cabelos & Maquiagem - Joice
+                Cabelos e Maquiagem - Joice
               </h3>
-              <Scissors className="h-6 w-6 text-salon-wine" />
             </div>
           </div>
           

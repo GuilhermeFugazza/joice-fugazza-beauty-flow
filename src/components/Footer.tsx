@@ -2,7 +2,7 @@ import { MessageCircle, Instagram, Heart } from 'lucide-react';
 
 const Footer = () => {
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5547999999999?text=Olá! Gostaria de mais informações sobre o Salão Joice Fugazza.', '_blank');
+    window.open('https://wa.me/5547999653620?text=Olá! Gostaria de mais informações sobre o Salão Joice Fugazza.', '_blank');
   };
 
   const scrollToSection = (href: string) => {

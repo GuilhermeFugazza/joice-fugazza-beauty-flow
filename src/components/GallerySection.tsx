@@ -166,9 +166,7 @@ const GallerySection = () => {
         <div className="mb-16">
           <div className="flex items-center justify-center mb-8">
             <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground flex items-center gap-3">
-              <span>💅</span>
               Trabalhos de Unhas - Julia
-              <span>💅</span>
             </h3>
           </div>
           
@@ -208,9 +206,7 @@ const GallerySection = () => {
         <div>
           <div className="flex items-center justify-center mb-8">
             <h3 className="text-2xl sm:text-3xl font-display font-bold text-foreground flex items-center gap-3">
-              <span>💄</span>
-              Cabelos & Maquiagem - Joice
-              <span>💇‍♀️</span>
+              Cabelos e Maquiagem - Joice
             </h3>
           </div>
           

@@ -32,7 +32,7 @@ const Header = () => {
   };
 
   const handleWhatsApp = () => {
-    window.open('https://wa.me/5547999999999?text=Olá! Gostaria de agendar um horário no Salão Joice Fugazza.', '_blank');
+    window.open('https://wa.me/5547999653620?text=Olá! Gostaria de agendar um horário no Salão Joice Fugazza.', '_blank');
   };
 
   return (
