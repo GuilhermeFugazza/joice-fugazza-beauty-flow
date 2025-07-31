@@ -5,7 +5,7 @@ import { MessageCircle, Eye, Heart } from 'lucide-react';
 const GallerySection = () => {
   const handleWhatsApp = (workType: string) => {
     const message = `Olá! Vi o trabalho de ${workType} e gostaria de agendar um horário no Salão Joice Fugazza.`;
-    window.open(`https://wa.me/5547999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5547999653620?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   // Placeholder gallery items - você pode substituir por imagens reais

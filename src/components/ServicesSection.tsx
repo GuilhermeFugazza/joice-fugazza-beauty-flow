@@ -55,45 +55,101 @@ const ServicesSection = () => {
 
   const beautyServices = [
     {
+      title: "Progressiva com Formol",
+      description: "Alisamento capilar de longa duração, fios lisos, disciplinados e com menos volume. Elimina o frizz e mantém o cabelo liso por mais tempo. Contém formol, selando as cutículas e promovendo efeito liso intenso. Duração média: até 6 meses. Contraindicada para gestantes e lactantes.",
+      duration: "a partir de 2h",
+      icon: "🧪",
+      professional: "Joice"
+    },
+    {
+      title: "Progressiva Orgânica",
+      description: "Alisamento com ativos naturais, reduz volume e controla o frizz. Liso leve, saudável e com brilho. Fórmula livre de químicas pesadas, ideal para todos os tipos de cabelo. Duração média: até 3 meses. Tecnologia suave e segura, inclusive para sensíveis.",
+      duration: "a partir de 2h",
+      icon: "🌿",
+      professional: "Joice"
+    },
+    {
+      title: "Selagem Capilar",
+      description: "Reconstrução e alinhamento dos fios, brilho intenso, maciez e controle do frizz. Sela cutículas, devolve nutrientes e promove aspecto liso. Ideal para cabelos ressecados, volumosos ou danificados. Duração: 1 a 2 meses. Versátil para todos os tipos de cabelo.",
+      duration: "1h30 - 2h",
+      icon: "💆‍♀️",
+      professional: "Joice"
+    },
+    {
+      title: "Botox Capilar",
+      description: "Nutrição e regeneração dos fios, reduz frizz e devolve brilho e maciez. Preenche falhas, fortalece e revitaliza desde a primeira aplicação. Indicado para todos os tipos de cabelo, inclusive sensibilizados. Duração: 20 a 40 dias.",
+      duration: "1h30 - 2h",
+      icon: "💧",
+      professional: "Joice"
+    },
+    {
+      title: "Semi definitiva capilar",
+      description: "Alisamento duradouro, reduz volume e proporciona brilho intenso. Resultado mais leve e natural que a progressiva tradicional. Fórmula que trata enquanto alisa. Duração: 3 a 6 meses. Compatível com a maioria das químicas.",
+      duration: "2h - 2h30",
+      icon: "🌸",
+      professional: "Joice"
+    },
+    {
+      title: "Corte Feminino",
+      description: "Corte personalizado para valorizar beleza, estilo e personalidade. Do clássico ao moderno, feito com técnica e sensibilidade. Análise do rosto e tipo de cabelo. Resultado elegante, prático e cheio de identidade.",
+      duration: "1h",
+      icon: "✂️",
+      professional: "Joice"
+    },
+    {
+      title: "Mechas",
+      description: "Mechas personalizadas que trazem leveza, profundidade e movimento. Técnicas adaptadas para todos os estilos, respeitando a saúde dos fios. Resultado: brilho, contraste e luminosidade na medida certa.",
+      duration: "2h30 - 3h",
+      icon: "🌞",
+      professional: "Joice"
+    },
+    {
+      title: "Luzes",
+      description: "Técnica suave que ilumina delicadamente os fios e camufla brancos. Mechas finas para efeito harmônico, leve e elegante. Visual renovado, sutil e sofisticado, mantendo a naturalidade. Beleza discreta e moderna.",
+      duration: "2h30 - 3h",
+      icon: "✨",
+      professional: "Joice"
+    },
+    {
+      title: "Morena Iluminada",
+      description: "Mechas suaves e iluminadas para realçar a beleza das morenas. Efeito de brilho e profundidade, visual moderno e cheio de movimento. Aplicação estratégica para harmonizar com o tom da pele. Resultado sofisticado e leve.",
+      duration: "2h30 - 3h",
+      icon: "🌟",
+      professional: "Joice"
+    },
+    {
+      title: "Loira Iluminada",
+      description: "Clareamento com mechas suaves e naturais, trazendo brilho e movimento. Visual radiante e elegante, efeito iluminado que realça o rosto. Aplicação personalizada para resultado delicado e sofisticado. Brilho intenso e saudável.",
+      duration: "2h30 - 3h",
+      icon: "💛",
+      professional: "Joice"
+    },
+    {
+      title: "Coloração de raiz/Cobertura de brancos",
+      description: "Renova a cor da raiz e disfarça fios brancos, visual uniforme e natural. Produtos de qualidade para cor vibrante e duradoura. Ideal para manter o tom entre colorações. Raiz homogênea e cabelo renovado.",
+      duration: "1h30 - 2h",
+      icon: "🖌️",
+      professional: "Joice"
+    },
+    {
+      title: "Coloração Total",
+      description: "Coloração sob medida para realçar beleza e estilo. Ampla gama de cores, fórmulas que cuidam dos fios. Ideal para renovar a cor, cobrir brancos ou criar looks ousados. Cor uniforme, brilho intenso e saudável.",
+      duration: "2h - 2h30",
+      icon: "🎨",
+      professional: "Joice"
+    },
+    {
       title: "Maquiagem Social",
-      description: "Para eventos, festas e ocasiões especiais",
+      description: "Para eventos, festas e ocasiões especiais. Make que valoriza sua beleza e dura a noite toda. Acabamento impecável e personalizado.",
       duration: "1h30",
       icon: "💄",
       professional: "Joice"
     },
     {
       title: "Maquiagem Noiva",
-      description: "Look perfeito para o dia mais especial",
+      description: "Look perfeito para o dia mais especial. Maquiagem de longa duração, resistente às emoções. Realce natural e sofisticado para noivas.",
       duration: "2h30",
       icon: "👰",
-      professional: "Joice"
-    },
-    {
-      title: "Corte Feminino",
-      description: "Cortes modernos e personalizados",
-      duration: "1h",
-      icon: "✂️",
-      professional: "Joice"
-    },
-    {
-      title: "Escova",
-      description: "Escova modeladora para todos os tipos de cabelo",
-      duration: "1h30",
-      icon: "💨",
-      professional: "Joice"
-    },
-    {
-      title: "Progressiva",
-      description: "Alisamento e redução de volume",
-      duration: "3h",
-      icon: "🌊",
-      professional: "Joice"
-    },
-    {
-      title: "Coloração",
-      description: "Mudança de cor e luzes personalizadas",
-      duration: "2h30",
-      icon: "🎨",
       professional: "Joice"
     }
   ];

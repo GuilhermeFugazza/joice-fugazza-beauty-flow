@@ -5,7 +5,7 @@ import { MessageCircle, Star, Award } from 'lucide-react';
 const ProfessionalsSection = () => {
   const handleWhatsApp = (professional: string) => {
     const message = `Olá! Gostaria de agendar um horário com ${professional} no Salão Joice Fugazza.`;
-    window.open(`https://wa.me/5547999999999?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/5547999653620?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   const professionals = [
